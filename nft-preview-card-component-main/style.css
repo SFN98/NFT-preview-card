@@ -1,0 +1,137 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{    
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.block{
+    
+    margin-top: 8vh;
+    color:white;
+    background-color: hsl(216, 50%, 16%);
+    padding: 0.5%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 25px;
+    padding-bottom:2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border:none;
+    border-radius: 10px;
+    box-shadow:  5px 5px 50px 10px rgba(8, 8, 8,0.5);
+}
+
+.block-image{
+    width: 300px;
+    border:none;
+    
+    
+}
+
+.block-image>img{
+    width: 300px;
+    border:none;
+    border-radius: 10px;
+    
+}
+
+
+.icon-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-p{
+    width: 80%;
+    font-size: 0.8em;
+    padding-top: 20px;
+    border-top: 1px solid white;   
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.icon-p img{
+    width: 20px;
+    border-radius: 20px;
+    border:solid 1px white;
+    
+}
+
+.ETH{
+    color: cyan;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.clock{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.para{
+    width: 80%;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+.crea{
+    color:hsl(215, 51%, 70%) ;
+}
+
+.block-image{
+    position: relative;
+}
+
+.view{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255,0.8);
+    border:none;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;  
+     
+}
+
+.block-image:hover .view{
+    display: flex;
+}
+
+.hover:hover{
+    color: rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+
+
